@@ -1,5 +1,7 @@
 # TIDIGITS recipe
 
+[![DOI](https://zenodo.org/badge/342497960.svg)](https://zenodo.org/badge/latestdoi/342497960)
+
 This repository contains a _recipe_ for training an automatic speech recognition (ASR) system using the [TIDIGITS database](https://catalog.ldc.upenn.edu/LDC93S10).
 The recipe is entirely Julia-flavoured and uses following packages (among others):
 * [Flux](https://github.com/FluxML/Flux.jl) as ML library
