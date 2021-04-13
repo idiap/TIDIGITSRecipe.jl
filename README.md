@@ -61,3 +61,6 @@ Modify the `conf` by changing the default in the `ArgParse` table.
 ### Evaluation
 
 Run the script `eval.jl` to calculate Word Error Rates (WER) and Phone Error Rate (PER).
+
+#### Acknowledgements
+This work was developed under the supsrvision of Prof. Dr. Hervé Bourlard and supported by the Swiss National Science Foundation under the project "Sparse and hierarchical Structures for Speech Modeling" (SHISSM) (no. 200021.175589).
