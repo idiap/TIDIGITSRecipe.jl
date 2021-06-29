@@ -46,7 +46,7 @@ For the moment HMM configuration is fixed in `wfsts.jl` with a phone based 2-sta
 
 ### Training
 
-Training is performed running the script `julia --project prepare_data.jl --conf 2a`.
+Training is performed running the script `julia --project train.jl --conf 2a`.
 Notice that if you're just experimenting it is more convenient to run the experiment from Julia's REPL.
 ```julia
 $ julia --project
