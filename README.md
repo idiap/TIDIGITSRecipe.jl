@@ -1,5 +1,7 @@
 # TIDIGITS recipe
 
+[![DOI](https://zenodo.org/badge/342497960.svg)](https://zenodo.org/badge/latestdoi/342497960)
+
 This repository contains a _recipe_ for training an automatic speech recognition (ASR) system using the [TIDIGITS database](https://catalog.ldc.upenn.edu/LDC93S10).
 The recipe is entirely Julia-flavoured and uses following packages (among others):
 * [Flux](https://github.com/FluxML/Flux.jl) as ML library
@@ -59,3 +61,6 @@ Modify the `conf` by changing the default in the `ArgParse` table.
 ### Evaluation
 
 Run the script `eval.jl` to calculate Word Error Rates (WER) and Phone Error Rate (PER).
+
+#### Acknowledgements
+This work was developed under the supsrvision of Prof. Dr. Hervé Bourlard and supported by the Swiss National Science Foundation under the project "Sparse and hierarchical Structures for Speech Modeling" (SHISSM) (no. 200021.175589).
